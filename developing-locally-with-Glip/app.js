@@ -81,6 +81,7 @@ app.post('/callback', function (req, res) {
             appSecret: process.env.GLIP_APPSECRET,
             appName: 'quick',
             appVersion: '1.0.0',
+		 apiRoot: process.env.RINGCENTRAL_ENV,
             username: process.env.GLIP_USERNAME,
             password: process.env.GLIP_PASSWORD,
             extension: process.env.GLIP_EXTENSION,
